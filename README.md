@@ -1,0 +1,6 @@
+# Comparative Study of GRU, BERT, and RoBERTa for Question Answering on Electronic Medical Records
+Doctors frequently require fast and accurate access to relevant information in electronic medical records (EMRs) to answer clinical questions during consultations. However, manually navigating through medical notes is time-consuming and inefficient. To address this issue, we propose a Question Answering (QA) system powered by Natural Language Processing (NLP), designed to retrieve answers from EMRs based on context.
+
+This project focuses on a comparative evaluation of three different NLP architectures: GRU (a recurrent neural network-based model), BERT (a transformer-based encoder model), and RoBERTa (an optimized variant of BERT). Each model is trained and tested using the EMRQA-MSquad dataset, which contains diverse medical question-answer pairs derived from electronic medical records.
+
+The goal is to assess the performance of these models in terms of accuracy, relevance, and contextual understanding of medical data. By comparing these approaches, we aim to identify the most effective architecture for clinical question answering tasks and provide insights into the trade-offs between traditional RNN-based and transformer-based models in the healthcare domain.
